@@ -18,7 +18,12 @@ export default function WeartherApp() {
   };
 
   return (
-    <div style={{ textAlign: "center", marginTop: "20px" }}>
+    <div
+      style={{
+        textAlign: "center",
+        marginTop: "20px",
+      }}
+    >
       <h2>Wearther App By Karan</h2>
       <SearchBox updateInfo={updateInfo} />
       {weatherData && <InfoBox info={weatherData} />}
